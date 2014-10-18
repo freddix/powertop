@@ -1,11 +1,11 @@
 Summary:	Tool that helps to optimze power usage
 Name:		powertop
-Version:	2.5
+Version:	2.6.1
 Release:	1
 License:	GPL v2
 Group:		Applications
-Source0:	https://01.org/powertop/sites/default/files/downloads/%{name}-%{version}.tar.gz
-# Source0-md5:	806bbcbd44fcea1f807c9582fc1f7d3e
+Source0:	https://01.org/sites/default/files/downloads/powertop/%{name}-%{version}.tar.gz
+# Source0-md5:	4391e7b0af854ecf722cdf712f24b631
 URL:		http://www.lesswatts.org/projects/powertop/
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
